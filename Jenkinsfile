@@ -3,10 +3,6 @@ pipeline {
 
     environment {
         // Environment variables
-        NODE_HOME = '/path/to/your/node'  // Change this to your Node.js installation path
-        APP_DIR = '/path/to/your/app'      // Change this to your application's directory
-        SSH_CREDENTIALS_ID = 'your-ssh-credentials-id' // ID for your SSH credentials in Jenkins
-        EC2_HOST = 'your.ec2.host.address' // Your EC2 instance address
     }
 
     stages {
